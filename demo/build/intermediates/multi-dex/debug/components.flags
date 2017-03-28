@@ -1,0 +1,334 @@
+-injars 'D:\Iwork\Demo\my-prj\nim_demo\demo\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\Iwork\Demo\my-prj\nim_demo\demo\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\Android\SDK\build-tools\23.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\Iwork\Demo\my-prj\nim_demo\demo\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.netease.nim.HelloMe.NimApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.WelcomeActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.MainActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.MultiportActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.login.LoginActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.AboutActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.SettingsActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.NoDisturbActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.contact.activity.AddFriendActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.contact.activity.UserProfileActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.contact.activity.UserProfileSettingActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.contact.activity.UserProfileEditItemActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.contact.activity.BlackListActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.file.browser.FileBrowserActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.SystemMessageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.CustomNotificationActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.activity.MessageHistoryActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.activity.MessageInfoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.team.activity.AdvancedTeamSearchActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.team.activity.AdvancedTeamJoinActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.TeamListActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.GlobalSearchActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.GlobalSearchDetailActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.main.activity.GlobalSearchDetailActivity2 {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.activity.WatchSnapChatPictureActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.activity.FileDownloadActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.location.activity.LocationAmapActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.location.activity.NavigationAmapActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.avchat.activity.AVChatActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.rts.activity.RTSActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.search.SearchMessageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.session.search.DisplayMessageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.chatroom.activity.ChatRoomActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.jsbridge.JsBridgeActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.avchat.activity.AVChatSettingsActivity {
+    <init>();
+}
+
+-keep class com.netease.nimlib.service.NimService {
+    <init>();
+}
+
+-keep class com.netease.nimlib.service.NimService$Aux {
+    <init>();
+}
+
+-keep class com.netease.nimlib.job.NIMJobService {
+    <init>();
+}
+
+-keep class com.netease.nimlib.service.NimReceiver {
+    <init>();
+}
+
+-keep class com.netease.nimlib.service.ResponseReceiver {
+    <init>();
+}
+
+-keep class com.netease.nimlib.service.ResponseService {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.receiver.CustomNotificationReceiver {
+    <init>();
+}
+
+-keep class com.netease.nimlib.receiver.RTSBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.netease.nim.HelloMe.avchat.receiver.IncomingCallReceiver {
+    <init>();
+}
+
+-keep class com.netease.cosine.core.CosineService {
+    <init>();
+}
+
+-keep class com.netease.cosine.target.CosineReceiver {
+    <init>();
+}
+
+-keep class com.xiaomi.push.service.XMJobService {
+    <init>();
+}
+
+-keep class com.xiaomi.push.service.XMPushService {
+    <init>();
+}
+
+-keep class com.xiaomi.push.service.receivers.PingReceiver {
+    <init>();
+}
+
+-keep class com.xiaomi.push.service.receivers.NetworkStatusReceiver {
+    <init>();
+}
+
+-keep class com.xiaomi.mipush.sdk.PushMessageHandler {
+    <init>();
+}
+
+-keep class com.xiaomi.mipush.sdk.MessageHandleService {
+    <init>();
+}
+
+-keep class com.netease.nimlib.mixpush.mi.MiPushReceiver {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.session.activity.P2PMessageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.session.activity.TeamMessageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.NormalTeamInfoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.TeamPropertySettingActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.PickImageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.CropImageActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.session.activity.CaptureVideoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.session.activity.WatchVideoActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.session.activity.WatchMessagePictureActivity {
+    <init>();
+}
+
+-keep class com.netease.nim.uikit.team.activity.TeamMemberListActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

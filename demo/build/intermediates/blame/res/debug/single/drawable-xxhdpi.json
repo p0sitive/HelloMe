@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Iwork\\Demo\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
+        "source": "D:\\Iwork\\Demo\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
+    },
+    {
+        "merged": "D:\\Iwork\\Demo\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "D:\\Iwork\\Demo\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\Iwork\\Demo\\my-prj\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_stat_notify_msg.png",
+        "source": "D:\\Iwork\\Demo\\my-prj\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
+    },
+    {
+        "merged": "D:\\Iwork\\Demo\\my-prj\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_logo.png",
+        "source": "D:\\Iwork\\Demo\\my-prj\\nim_demo\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
+    }
+]
